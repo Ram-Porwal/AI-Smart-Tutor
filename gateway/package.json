@@ -1,0 +1,19 @@
+{
+  "name": "ai-smart-tutor-gateway",
+  "version": "1.0.0",
+  "description": "Node.js Express Gateway for LangGraph streaming and WebSockets",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.15.0",
+    "cors": "^2.8.6",
+    "express": "^4.22.1",
+    "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

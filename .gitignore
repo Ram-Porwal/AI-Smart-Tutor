@@ -1,0 +1,17 @@
+# Sensitive Data
+.env
+*.pyc
+__pycache__/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Database & Logs
+*.sqlite
+*.log
+
+# IDE files
+.vscode/
+.idea/
