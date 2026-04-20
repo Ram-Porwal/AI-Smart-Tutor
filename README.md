@@ -35,15 +35,18 @@ cd ai-engine
 .\venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
+```
 
 #### 2. API Gateway (Terminal 2)
 ```bash
 cd gateway
 npm install
 node src/server.js
+```
 
 #### 3. Frontend UI (Terminal 3)
 ```bash
 cd frontend
 npm install
 npm start
+```
