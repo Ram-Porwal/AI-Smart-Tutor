@@ -16,16 +16,14 @@ The platform is built on a three-tier "Cyber-Minimalist" architecture:
 * **Database:** SQLite (Checkpointer for persistence)
 
 ## 🔑 Environment Setup
-Before running the application, you must configure your API credentials.
+Automate your configuration by running this command inside the `ai-engine/` directory:
 
-1.  **Get a Groq API Key:** Visit the [Groq Console](https://console.groq.com/keys) and generate a key starting with `gsk_`.
-2.  **Create an Environment File:** Inside the `ai-engine/` directory, create a file named `.env`.
-3.  **Add Your Key:** Paste your key into the file exactly as shown:
-    
-    ```text
-    GROQ_API_KEY=gsk_your_actual_key_here
+1.  **Generate your key** at the [Groq Console](https://console.groq.com/keys).
+2.  **Run this bash command** (replace `gsk_...` with your key):
+    ```bash
+    echo "GROQ_API_KEY=gsk_your_actual_key_here" > .env
     ```
-    *Note: Do not use quotes or spaces around the key.*
+    *Note: This creates the file with the correct encoding and no trailing spaces.*
 
 ## 🚀 Getting Started
 
