@@ -20,7 +20,9 @@ Automate your configuration by running this command inside the `ai-engine/` dire
 
 1.  **Generate your key** at the [Groq Console](https://console.groq.com/keys).
 2.  **Run this bash command** (replace `gsk_...` with your key):
+    
     ```bash
+    cd AI-Smart-Tutor
     echo "GROQ_API_KEY=gsk_your_actual_key_here" > .env
     ```
     *Note: This creates the file with the correct encoding and no trailing spaces.*
@@ -32,7 +34,6 @@ Launch three separate terminals to run the full stack:
 
 #### 1. AI Engine (Terminal 1)
 ```bash
-cd AI-Smart-Tutor
 cd ai-engine
 .\.venv\Scripts\activate
 pip install -r requirements.txt
