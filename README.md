@@ -20,7 +20,7 @@ Before running the application, you must configure your API credentials.
 
 1.  **Get a Groq API Key:** Visit the [Groq Console](https://console.groq.com/keys) and generate a key starting with `gsk_`.
 2.  **Create an Environment File:** Inside the `ai-engine/` directory, create a file named `.env`.
-3.  **Add Your Key:** Paste your key into the file exactly as shown:
+####3.  **Add Your Key:** Paste your key into the file exactly as shown:
     ```text
     GROQ_API_KEY=gsk_your_actual_key_here
     ```
@@ -35,7 +35,7 @@ Launch three separate terminals to run the full stack:
 ```bash
 cd AI-Smart-Tutor
 cd ai-engine
-.\venv\Scripts\activate
+.\.venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 ```
