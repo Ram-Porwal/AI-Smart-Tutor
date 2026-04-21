@@ -1,6 +1,14 @@
-langchain-openai
-langgraph
-fastapi
-uvicorn
-pydantic
-tavily-python
+# Core AI Frameworks
+langchain==0.3.0
+langchain-core==0.3.0
+langchain-groq==0.2.0
+langgraph==0.2.20
+
+# Web Server & API
+fastapi==0.115.0
+uvicorn==0.30.6
+pydantic==2.9.2
+
+# Utilities & Environment
+python-dotenv==1.0.1
+aiosqlite==0.20.0
